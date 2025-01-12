@@ -7,7 +7,7 @@
 #include <BLE2902.h>
 #include <string.h>
 #include <DHT.h>
-//initialize DTH sensor
+//initialize DHT sensor
 DHT dht(15, DHT11);
 BLEServer *pServer = NULL;
 BLECharacteristic
